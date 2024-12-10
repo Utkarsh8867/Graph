@@ -21,16 +21,3 @@ A **graph** is a non-linear data structure that consists of a set of nodes (also
 2. **Adjacency List**: A list of lists, where each vertex has a list of adjacent vertices.
 3. **Edge List**: A list of all edges, where each edge is represented as a pair (or tuple) of vertices.
 
-### Graph Traversal:
-- **Depth-First Search (DFS)**: Explores as far down a branch as possible before backtracking.
-- **Breadth-First Search (BFS)**: Explores all neighbors of a vertex before moving to the next level of neighbors.
-
-### Common Graph Algorithms:
-- **Dijkstra's Algorithm**: Finds the shortest path from a source vertex to all other vertices in a weighted graph.
-- **Kruskal's Algorithm**: Finds the minimum spanning tree for a graph, connecting all vertices with the minimum possible total edge weight.
-- **Prim's Algorithm**: Another approach to finding the minimum spanning tree, starting from a specific vertex and growing the tree one edge at a time.
-
-### Applications of Graphs:
-- **Social Networks**: Represent users as nodes and connections as edges.
-- **Navigation Systems**: Represent locations as nodes and paths as edges, used for finding the shortest routes.
-- **Web Crawlers**: Use graph traversal techniques to crawl interconnected web pages.
